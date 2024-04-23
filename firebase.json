@@ -1,0 +1,16 @@
+{
+    "hosting": {
+        "rewrites": [{
+            "source": "**",
+            "run": {
+                "serviceId": "generaltor-api",
+                "region": "europe-west9"
+            }
+        }],
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}
